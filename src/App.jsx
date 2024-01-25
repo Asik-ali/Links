@@ -25,11 +25,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/cbse" element={<PriceCardMobile />} />
+        <Route path="/courses/cbse" element={<PriceCardMobile />} />
+        <Route path="/courses/state" element={<StateBoardMobile />} />
+        <Route path="/courses/nios" element={<NiosMobile />} />
         <Route path="/cbsesenior" element={<CbseSenior />} />
-        <Route path="/nios" element={<NiosMobile />} />
         <Route path="/niossenior" element={<NiosSenior />} />
-        <Route path="/state" element={<StateBoardMobile />} />
         <Route path="/statesenior" element={<StateSenior />} />
         <Route path="/admission" element={<Admission />} />
 

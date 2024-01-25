@@ -14,7 +14,11 @@ function Navbar() {
   function handleClose() {
     setIsHidden(true);
   }
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
   return (
     <div className="">
       <div className={isHidden ? "hidden" : "bg-white text-[#25283A]  pb-1 justify-around items-center hidden lg:flex"}>
@@ -51,11 +55,31 @@ function Navbar() {
                   About
                 </Link>
               </li>
-               <li>
-                <Link to="/courses" className="text-[#25283A] cursor-pointer z-[99] hover:text-[#358FFF]">
-                  Courses
-                </Link>
-              </li>
+              <li className="group">
+      <div className='relative'>
+        <span className="text-[#25283A] cursor-pointer z-[99] hover:text-[#358FFF]" onClick={toggleDropdown}>
+          Courses &#9660;
+        </span>
+      </div>
+
+      <ul className={`z-10 absolute left-1/2 ${isDropdownOpen ? 'block' : 'hidden'} mt-2 space-y-2 bg-white text-[#25283A] rounded-md shadow-lg`}>
+        <li>
+          <Link to="/courses/nios" className="block z-[99] cursor-pointer px-4 py-2 hover:text-[#358FFF]">
+            NIOS
+          </Link>
+        </li>
+        <li>
+          <Link to="/courses/cbse" className="block px-4 py-2 hover:text-[#358FFF]">
+          CBSE
+          </Link>
+        </li>
+        <li>
+          <Link to="/courses/state" className="block px-4 py-2 hover:text-[#358FFF]">
+            State
+          </Link>
+        </li>
+      </ul>
+    </li>
               <li>
                 <Link to="/admission" className="text-[#25283A] cursor-pointer hover:text-[#358FFF]">
                   Admission
