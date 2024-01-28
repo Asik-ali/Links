@@ -132,7 +132,10 @@ const About = () => {
 
 
       <div className=' bg-gradient-to-b from-blue-50 to-blue-100 flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
-        
+      <div className="lg:hidden">
+          <img className="w-[500px] rounded-xl" src={a1}
+           />
+        </div>
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
           <h1 className='lg:text-5xl text-2xl text-[#25283A]  font-semibold text-center'>Our <span className="text-[#358FFF]">Mission</span> </h1>
@@ -140,8 +143,7 @@ const About = () => {
 
         </div>
         <div>
-          <img className="w-[500px] rounded-xl" src={a1}
-          // "https://img.freepik.com/free-photo/university-student-using-headphones-laptop-attend-online-class-video-call-meeting-woman-talking-teacher-remote-videoconference-educational-live-communication_482257-43337.jpg?w=1380&t=st=1705603655~exp=1705604255~hmac=2b2118d3260e391edab8d89ecdac334eed2e11624bbd1115d2e03f8295b7e68b" 
+          <img className="w-[500px] rounded-xl hidden lg:flex" src={a1}
            />
         </div>
       </div>
@@ -165,7 +167,9 @@ const About = () => {
       </div>
 
       <div className=' bg-gradient-to-b from-blue-50 to-blue-100  flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
-       
+      <div className="lg:hidden">
+          <img className="w-[500px] rounded" src={a3} lt="" />
+        </div>
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
           <h1 className='lg:text-5xl text-2xl text-[#25283A]  font-semibold text-center'>Our  <span className="text-[#358FFF]">Team</span> </h1>
@@ -173,7 +177,7 @@ const About = () => {
 
         </div>
         <div>
-          <img className="w-[500px] rounded" src={a3} lt="" />
+          <img className="w-[500px] rounded hidden lg:flex" src={a3} lt="" />
         </div>
       </div>
 

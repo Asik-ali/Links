@@ -22,7 +22,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className=' bg-[#FFE39D] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
+      <div className=' bg-[#F8F9FD] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
 
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>

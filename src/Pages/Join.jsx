@@ -22,8 +22,10 @@ const Join = () => {
                 </div>
             </div>
 
-            <div className=' bg-[#FFE39D] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
-
+            <div className=' bg-[#E0EDFE] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
+                <div className="lg:hidden">
+                    <img className="w-[500px] rounded" src={a3} lt="" />
+                </div>
 
                 <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
                     <h1 className='lg:text-5xl text-2xl font-semibold text-center'>Innovative Environment</h1>
@@ -33,7 +35,7 @@ const Join = () => {
 
                 </div>
                 <div>
-                    <img className="w-[500px] rounded" src={a3} lt="" />
+                    <img className="w-[500px] rounded hidden lg:flex" src={a3} lt="" />
                 </div>
             </div>
 
@@ -53,7 +55,7 @@ const Join = () => {
             <div className=' flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
 
 
-                <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10 bg-[#FFE39D] p-4'>
+                <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10 bg-[#E0EDFE] p-4'>
                     <h1 className='lg:text-5xl text-2xl font-semibold text-center'>How to Apply</h1>
                     <p className='text-[#808083] text-justify lg:w-[450px] p-4'>If you are passionate about education, dedicated to student success, and eager to contribute to
                         an innovative learning environment, we want to hear from you! To apply for current openings

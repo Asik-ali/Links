@@ -153,7 +153,7 @@ export default () => {
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
                     <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                      State Senior Secondary
+                      CBSE Senior Secondary
                     </h3>
                 </div>
                 <div className='mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3'>

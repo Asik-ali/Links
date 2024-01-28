@@ -2,24 +2,36 @@ import React from 'react';
 
 export default () => {
     const plans = [
-        { name: " G 11 &12 Arabic", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 English", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Mathematics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Physics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Chemistry", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Biology", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Accounting", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Economics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Business Studies", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Computer Science", price: 60, features: ["One To One Sessions", "Limited Seats",], },
-        { name: " G 11 &12 Data Entry Operation", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Arabic", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  English", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Mathematics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Physics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Chemistry", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Biology", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Accounting", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Economics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Business Studies", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Computer Science", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Data Entry Operation", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 11  Arabic", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 English", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Mathematics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Physics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Chemistry", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Biology", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Accounting", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Economics", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Business Studies", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Computer Science", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+        { name: " G 12 Data Entry Operation", price: 60, features: ["One To One Sessions", "Limited Seats",], },
+
     ];
 
     return (
         <section className='py-14'>
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
-                    <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
+                    <h3 className='text-gray-800 text-2xl font-semibold sm:text-4xl'>
                         NIOS Senior Secondary
                     </h3>
                 </div>
